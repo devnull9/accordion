@@ -1,0 +1,16 @@
+$color-gray-one: #eee;
+$color-gray-two: #ddd;
+
+dt {
+  padding: 20px;
+  background-color: $color-gray-one;
+  cursor: pointer;
+    
+  &:hover {
+    background-color: $color-gray-two;
+  }
+}
+  
+dd {
+  display: none;
+}
